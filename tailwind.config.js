@@ -1,12 +1,16 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    './src/**/*.{js,jsx,ts,tsx,html}', // 你的原始碼路徑，自行調整
+    './src/**/*.{js,jsx,ts,tsx,html}',
   ],
-   theme: {
+  theme: {
     extend: {
-      fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
+      // fontFamily: {
+      //   roboto: ['Roboto', 'sans-serif'],
+      // },
+       fontFamily: {
+        sans: ['Roboto', 'sans-serif'], // ← 整個網站的 sans-serif 字體改成 Roboto
       },
     },
   },

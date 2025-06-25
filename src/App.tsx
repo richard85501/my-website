@@ -19,9 +19,7 @@ function Portfolio() {
 
           {/* 文字區塊：佔8份 */}
           <div className="basis-8/10">
-            <h1 className="text-4xl font-bold mb-2 font-roboto">
-              Hi, I'm Liu Chang
-            </h1>
+            <h1 className="text-4xl font-bold mb-2">Hi, I'm Liu Chang</h1>
             <h2 className="text-sm text-blue-600 mb-1 inline-block bg-blue-100 rounded-lg px-3 py-1 font-bold">
               Frontend Engineer
             </h2>
