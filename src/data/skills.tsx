@@ -8,10 +8,7 @@ import {
   SiAxios,
   SiJsonwebtokens,
   SiJest,
-  SiTestinglibrary,
-  SiGoogleanalytics,
   SiReact,
-  SiVite,
   SiNpm,
 } from "react-icons/si";
 
