@@ -1,23 +1,12 @@
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaGitAlt,
-  FaNodeJs,
-  FaFigma,
-  FaAccessibleIcon,
-} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaGitAlt } from "react-icons/fa";
 
 import {
   SiTypescript,
   SiReact,
   SiNextdotjs,
   SiRedux,
-  SiVuedotjs,
-  SiNuxtdotjs,
   SiTailwindcss,
   SiSass,
-  SiStyledcomponents,
   SiVite,
   SiWebpack,
   SiNpm,
@@ -26,15 +15,9 @@ import {
   SiPrettier,
   SiAxios,
   SiJsonwebtokens,
-  SiGraphql,
-  SiExpress,
-  SiVercel,
-  SiNetlify,
-  SiGithubactions,
   SiJest,
   SiTestinglibrary,
   SiGoogleanalytics,
-  SiAdobeillustrator,
 } from "react-icons/si";
 
 type SkillProps = {
