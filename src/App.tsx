@@ -11,6 +11,7 @@ import {
   infopowerDetails,
 } from "./data/experience";
 import { onelabSkills, adbertSkills } from "./data/skills";
+import LetsConnect from "./pages/lets-connect/letsConnect";
 
 function Portfolio() {
   return (
@@ -116,31 +117,23 @@ function Portfolio() {
           /> */}
       {/* </div>
       </section> */}
-      <footer className="text-center text-sm text-gray-500 py-10">
-        <p>
-          © 2025 Liu Chang •{" "}
-          <a href="#" className="hover:underline">
-            GitHub
-          </a>
-        </p>
-      </footer>
     </div>
   );
 }
 
-type ProjectCardProps = {
-  title: string;
-  desc: string;
-};
+// type ProjectCardProps = {
+//   title: string;
+//   desc: string;
+// };
 
-function ProjectCard({ title, desc }: ProjectCardProps) {
-  return (
-    <div className="p-4 rounded-xl bg-white/70 backdrop-blur-md shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 ease-in-out cursor-pointer">
-      <h3 className="text-lg font-medium mb-1">{title}</h3>
-      <p className="text-sm text-gray-600">{desc}</p>
-    </div>
-  );
-}
+// function ProjectCard({ title, desc }: ProjectCardProps) {
+//   return (
+//     <div className="p-4 rounded-xl bg-white/70 backdrop-blur-md shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 ease-in-out cursor-pointer">
+//       <h3 className="text-lg font-medium mb-1">{title}</h3>
+//       <p className="text-sm text-gray-600">{desc}</p>
+//     </div>
+//   );
+// }
 
 function App() {
   return (
@@ -148,6 +141,7 @@ function App() {
       <Bolb />
       <Portfolio />
       <FloatingNav />
+      <LetsConnect />
     </>
   );
 }
