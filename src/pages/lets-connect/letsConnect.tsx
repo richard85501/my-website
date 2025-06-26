@@ -1,7 +1,7 @@
 const LetsConnect = () => {
   const handleSendDM = () => {
     // You can customize this action - open email, social media, etc.
-    window.open("mailto:your-email@example.com", "_blank");
+    window.open("https://www.linkedin.com/in/chang-liu-08083617a", "_blank");
   };
 
   return (
@@ -17,7 +17,7 @@ const LetsConnect = () => {
           <p className="text-lg md:text-xl text-gray-600">
             <button
               onClick={handleSendDM}
-              className="text-blue-500 hover:text-blue-600 underline transition-colors duration-200 font-medium"
+              className="text-blue-500 hover:text-blue-600 underline transition-colors duration-200 font-medium cursor-pointer"
             >
               Send me a DM
             </button>
