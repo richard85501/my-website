@@ -28,7 +28,7 @@ function Portfolio() {
           {/* Avatar區塊：佔2份 */}
           <div className="basis-3/10 flex-shrink-0">
             <img
-              src="/avatar_s.jpg" // 替換成你的頭像圖片路徑
+              src="/avatar_p.jpg" // 替換成你的頭像圖片路徑
               alt="Liu Chang Avatar"
               className="w-55 h-55 rounded-full object-cover shadow-md"
             />
