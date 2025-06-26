@@ -6,7 +6,7 @@ export const onelabDetails = [
 ];
 
 export const adbertDetails = [
-  "Assisted in building an 人資雲系統 for the company, supporting talent development and helping the HR department calculate and distribute bonuses over four consecutive quarters.",
+  "Assisted in building an HC System for the company, supporting talent development and helping the HR department calculate and distribute bonuses over four consecutive quarters.",
   "Developed reusable and customizable chart components, shared across multiple projects, significantly improving productivity and development efficiency.",
   "Designed efficient and scalable state management flows using Redux, solving issues related to data persistence across page transitions and permission handling.",
   "Utilized custom hooks to encapsulate business logic, reducing code duplication and increasing reusability.",

@@ -4,6 +4,7 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 import WorkExperience from "./pages/work-experience/WorkExperience";
 import Skills from "./pages/skills/Skills";
 import FloatingNav from "./components/floating-nav/FloatingNav";
+import Bolb from "./pages/bolb/Bolb";
 import { onelabDetails, adbertDetails } from "./data/experience";
 import { onelabSkills, adbertSkills } from "./data/skills";
 
@@ -28,8 +29,10 @@ function Portfolio() {
               Front-end Engineer
             </h2>
             <p className="text-lg text-gray-600 mb-4">
-              I'm a frontend engineer passionate about building fast, elegant,
-              and accessible web experiences.
+              I love trying new things and the feeling of building something
+              from scratch. I’ve found real joy in exploring blockchain,
+              algorithmic trading, and web development. Outside the screen,
+              climbing and traveling keep me grounded and inspired.
             </p>
             <div className="flex space-x-6 text-blue-500">
               <a
@@ -68,7 +71,8 @@ function Portfolio() {
       <section id="experience" className="max-w-4xl mx-auto px-6 py-2">
         <h2 className="text-2xl font-semibold mb-6">Experience</h2>
         <WorkExperience
-          company="瑞嘉科技"
+          companyName="ONElab Technology Ltd"
+          companyLogo="onelab.png"
           period="2023/6-2025/3"
           details={onelabDetails}
           skills={onelabSkills}
@@ -77,7 +81,8 @@ function Portfolio() {
 
       <section className="max-w-4xl mx-auto px-6 py-2">
         <WorkExperience
-          company="ADBERT 艾普特"
+          companyName="Adbert Tech Media Co.Ltd"
+          companyLogo="adbert.png"
           period="2022/3-2023/5"
           details={adbertDetails}
           skills={adbertSkills}
@@ -120,15 +125,6 @@ function ProjectCard({ title, desc }: ProjectCardProps) {
     <div className="p-4 rounded-xl bg-white/70 backdrop-blur-md shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 ease-in-out cursor-pointer">
       <h3 className="text-lg font-medium mb-1">{title}</h3>
       <p className="text-sm text-gray-600">{desc}</p>
-    </div>
-  );
-}
-
-function Bolb() {
-  return (
-    <div className="fixed inset-0 -z-10 overflow-hidden">
-      <div className="absolute top-[-100px] left-[-100px] w-[400px] h-[400px] bg-blue-500 opacity-50 rounded-full blur-[100px]"></div>
-      <div className="absolute bottom-[-80px] right-[-80px] w-[300px] h-[300px] bg-cyan-500 opacity-50 rounded-full blur-[100px]"></div>
     </div>
   );
 }

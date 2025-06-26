@@ -22,14 +22,11 @@ export const onelabSkills = [
   { icon: <SiNextdotjs />, label: "Next.js" },
   { icon: <SiTailwindcss />, label: "Tailwind CSS" },
   { icon: <SiJest />, label: "Cypress" },
-  { icon: <SiTestinglibrary />, label: "Testing Library" },
-  { icon: <SiGoogleanalytics />, label: "Google Analytics" },
 ];
 
 export const adbertSkills = [
   { icon: <SiRedux />, label: "Redux" },
   { icon: <SiSass />, label: "Sass/SCSS" },
-  { icon: <SiWebpack />, label: "Webpack" },
   { icon: <SiAxios />, label: "Axios" },
   { icon: <SiJsonwebtokens />, label: "JWT" },
 ];
@@ -45,6 +42,6 @@ export const mainSkills = [
   { icon: <SiReact />, label: "React" },
 
   // 🛠️ 工具與平台
-  { icon: <SiVite />, label: "Vite" },
+  { icon: <SiWebpack />, label: "Webpack" },
   { icon: <SiNpm />, label: "npm" },
 ];
