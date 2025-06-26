@@ -13,3 +13,8 @@ export const adbertDetails = [
   "Built a component library using Storybook, creating highly reusable and easily maintainable React components to enhance cross-project and cross-team collaboration.",
   "Implemented automated testing for components, saving development and testing time while increasing component stability.",
 ];
+
+export const infopowerDetails = [
+  "Maintained the email delivery system using Mailgun and AWS services.",
+  "Implemented logging at critical points to resolve traffic monitoring issues on the official website.",
+];

@@ -5,7 +5,11 @@ import WorkExperience from "./pages/work-experience/WorkExperience";
 import Skills from "./pages/skills/Skills";
 import FloatingNav from "./components/floating-nav/FloatingNav";
 import Bolb from "./pages/bolb/Bolb";
-import { onelabDetails, adbertDetails } from "./data/experience";
+import {
+  onelabDetails,
+  adbertDetails,
+  infopowerDetails,
+} from "./data/experience";
 import { onelabSkills, adbertSkills } from "./data/skills";
 
 function Portfolio() {
@@ -64,7 +68,6 @@ function Portfolio() {
           </div>
         </div>
       </header>
-
       <section className="max-w-4xl mx-auto px-6 py-10">
         <Skills />
       </section>
@@ -78,7 +81,6 @@ function Portfolio() {
           skills={onelabSkills}
         />
       </section>
-
       <section className="max-w-4xl mx-auto px-6 py-2">
         <WorkExperience
           companyName="Adbert Tech Media Co.Ltd"
@@ -88,8 +90,16 @@ function Portfolio() {
           skills={adbertSkills}
         />
       </section>
-
-      <section id="others" className="max-w-4xl mx-auto px-6 py-10">
+      <section className="max-w-4xl mx-auto px-6 py-2">
+        <WorkExperience
+          companyName="InfoPower"
+          companyLogo="infopower.png"
+          period="2021/9-2022/1"
+          details={infopowerDetails}
+          skills={[]}
+        />
+      </section>
+      {/* <section id="others" className="max-w-4xl mx-auto px-6 py-10">
         <h2 className="text-2xl font-semibold mb-6">Others</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <ProjectCard
@@ -99,10 +109,13 @@ function Portfolio() {
           <ProjectCard
             title="My Portfolio"
             desc="This personal site you're looking at."
-          />
-        </div>
-      </section>
-
+          /> */}
+      {/* <ProjectCard
+            title="Programmatic trading of TAIEX Futures"
+            desc="Built an automated trading system for TAIEX Futures."
+          /> */}
+      {/* </div>
+      </section> */}
       <footer className="text-center text-sm text-gray-500 py-10">
         <p>
           © 2025 Liu Chang •{" "}
