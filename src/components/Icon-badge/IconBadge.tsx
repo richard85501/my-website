@@ -1,11 +1,11 @@
 type IconBagdeProps = {
-  icon: React.ReactNode; // icon 通常是 React 元素
+  icon: React.ReactNode;
   label: string;
 };
 
 export default function IconBagde({ icon, label }: IconBagdeProps) {
   return (
-    <div className="flex items-center gap-1.5 px-3 py-1.5 bg-white rounded-full shadow text-xs">
+    <div className="flex items-center gap-1.5 px-3 py-1.5 bg-white rounded-full shadow text-xs font-bold">
       <span className="text-lg">{icon}</span>
       <span>{label}</span>
     </div>
