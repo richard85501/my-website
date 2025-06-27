@@ -1,6 +1,6 @@
 import "./App.css";
-import { FaGithub } from "react-icons/fa";
-import { MdEmail, MdLocationOn } from "react-icons/md";
+// import { FaGithub } from "react-icons/fa";
+// import { MdEmail, MdLocationOn } from "react-icons/md";
 import WorkExperience from "./pages/work-experience/WorkExperience";
 import Skills from "./pages/skills/Skills";
 import FloatingNav from "./components/floating-nav/FloatingNav";
@@ -40,7 +40,7 @@ function Portfolio() {
               climbing and traveling keep me grounded and inspired.
             </p>
             <div className="flex space-x-6 text-blue-500">
-              <a
+              {/* <a
                 href="mailto:changliu@example.com"
                 className="w-6 h-6 hover:text-blue-700 transition-colors"
                 aria-label="Email"
@@ -64,7 +64,7 @@ function Portfolio() {
                 aria-label="Location"
               >
                 <MdLocationOn className="w-6 h-6" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
