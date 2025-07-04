@@ -100,40 +100,49 @@ function Portfolio() {
           skills={[]}
         />
       </section>
-      {/* <section id="others" className="max-w-4xl mx-auto px-6 py-10">
+      <section id="others" className="max-w-4xl mx-auto px-6 py-10">
         <h2 className="text-2xl font-semibold mb-6">Others</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <ProjectCard
-            title="ClimbLog"
-            desc="A minimal climbing log to record routes."
+            title="Hiking Journal"
+            desc="Some hiking record in tawain"
+            imageSrc="/project_1.png"
+            link="https://hiking-journal.vercel.app/"
           />
           <ProjectCard
-            title="My Portfolio"
-            desc="This personal site you're looking at."
-          /> */}
-      {/* <ProjectCard
             title="Programmatic trading of TAIEX Futures"
             desc="Built an automated trading system for TAIEX Futures."
-          /> */}
-      {/* </div>
-      </section> */}
+          />
+        </div>
+      </section>
     </div>
   );
 }
 
-// type ProjectCardProps = {
-//   title: string;
-//   desc: string;
-// };
+type ProjectCardProps = {
+  title: string;
+  desc: string;
+  imageSrc?: string;
+  link?: string;
+};
 
-// function ProjectCard({ title, desc }: ProjectCardProps) {
-//   return (
-//     <div className="p-4 rounded-xl bg-white/70 backdrop-blur-md shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 ease-in-out cursor-pointer">
-//       <h3 className="text-lg font-medium mb-1">{title}</h3>
-//       <p className="text-sm text-gray-600">{desc}</p>
-//     </div>
-//   );
-// }
+function ProjectCard({ title, desc, imageSrc, link }: ProjectCardProps) {
+  return (
+    <div className="p-4 rounded-xl bg-white/70 backdrop-blur-md shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 ease-in-out cursor-pointer">
+      <h3 className="text-lg font-medium mb-1">{title}</h3>
+      <p className="text-sm text-gray-600">{desc}</p>
+      {imageSrc && (
+        <a href={link} target="_blank" rel="CHANG CHANG HIKING JOURNAL">
+          <img
+            src={imageSrc}
+            alt={title}
+            className="w-full h-48 object-cover rounded-lg mb-4"
+          />
+        </a>
+      )}
+    </div>
+  );
+}
 
 function App() {
   return (
