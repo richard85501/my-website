@@ -5,15 +5,28 @@ import WorkExperience from "./pages/work-experience/WorkExperience";
 import Skills from "./pages/skills/Skills";
 import FloatingNav from "./components/floating-nav/FloatingNav";
 import Bolb from "./pages/bolb/Bolb";
-import {
-  onelabDetails,
-  adbertDetails,
-  infopowerDetails,
-} from "./data/experience";
 import { onelabSkills, adbertSkills } from "./data/skills";
 import LetsConnect from "./pages/lets-connect/letsConnect";
+import { useTranslation } from "react-i18next";
 
 function Portfolio() {
+  const { t } = useTranslation();
+
+  const onelabDetails = [
+    t("onelab.details.0"),
+    t("onelab.details.1"),
+    t("onelab.details.2"),
+    t("onelab.details.3"),
+  ];
+  const adbertDetails = [
+    t("adbert.details.0"),
+    t("adbert.details.1"),
+    t("adbert.details.2"),
+    t("adbert.details.3"),
+    t("adbert.details.4"),
+    t("adbert.details.5"),
+  ];
+  const infopowerDetails = [t("infopower.details.0"), t("infopower.details.1")];
   return (
     <div className="min-h-screen bg-gradient-to-br text-gray-800">
       <header id="about" className="max-w-4xl mx-auto py-20 px-6">
@@ -29,15 +42,12 @@ function Portfolio() {
 
           {/* 文字區塊：佔8份 */}
           <div className="basis-7/10">
-            <h1 className="text-4xl font-bold mb-2">Hi, I'm Liu Chang</h1>
+            <h1 className="text-4xl font-bold mb-2">{t("intro_greeting")}</h1>
             <h2 className="text-sm text-blue-600 mb-1 inline-block bg-blue-100 rounded-lg px-3 py-1 font-bold">
-              Front-end Engineer
+              {t("intro_role")}
             </h2>
             <p className="text-lg text-gray-600 mb-4">
-              I love trying new things and the feeling of building something
-              from scratch. I’ve found real joy in exploring blockchain,
-              algorithmic trading, and web development. Outside the screen,
-              climbing and traveling keep me grounded and inspired.
+              {t("intro_description")}
             </p>
             <div className="flex space-x-6 text-blue-500">
               {/* <a
@@ -73,7 +83,9 @@ function Portfolio() {
         <Skills />
       </section>
       <section id="experience" className="max-w-4xl mx-auto px-6 py-2">
-        <h2 className="text-2xl font-semibold mb-6">Experience</h2>
+        <h2 className="text-2xl font-semibold mb-6">
+          {t("section_experience")}
+        </h2>
         <WorkExperience
           companyName="ONElab Technology Ltd"
           companyLogo="onelab.png"
@@ -101,17 +113,17 @@ function Portfolio() {
         />
       </section>
       <section id="others" className="max-w-4xl mx-auto px-6 py-10">
-        <h2 className="text-2xl font-semibold mb-6">Others</h2>
+        <h2 className="text-2xl font-semibold mb-6">{t("section_others")}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <ProjectCard
-            title="Hiking Journal"
-            desc="Some hiking record in tawain"
+            title={t("section_hikingJournal")}
+            desc={t("hiking_description")}
             imageSrc="/project_1.png"
             link="https://hiking-journal.vercel.app/"
           />
           <ProjectCard
-            title="Programmatic trading of TAIEX Futures"
-            desc="Built an automated trading system for TAIEX Futures."
+            title={t("trading_title")}
+            desc={t("trading_description")}
           />
         </div>
       </section>

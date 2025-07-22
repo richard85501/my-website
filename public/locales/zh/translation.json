@@ -23,5 +23,15 @@
       "增加官網點擊行為的紀錄功能，便於後續數據分析師進行精準行銷分析。",
       "串接 LINE Message 與 LINE Notify 進行推播功能開發。"
     ]
-  }
+  },
+  "intro_greeting": "劉暢",
+  "intro_role": "前端工程師",
+  "intro_description": "我熱愛嘗試新事物，享受從零開始打造作品的過程。我特別喜歡探索區塊鏈、程式交易與網頁開發。在螢幕之外，攀岩與旅行讓我保持腳踏實地並充滿靈感。",
+  "section_experience": "經歷",
+  "section_skills": "技能與技術",
+  "section_others": "其他",
+  "section_hikingJournal": "登山紀錄",
+  "hiking_description": "一些在台灣的登山紀錄",
+  "trading_title": "台指期的程式交易",
+  "trading_description": "建立了一套自動化的台指期交易系統。"
 }

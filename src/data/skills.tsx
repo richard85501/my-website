@@ -10,15 +10,18 @@ import {
   SiJest,
   SiReact,
   SiNpm,
+  SiReactquery,
 } from "react-icons/si";
 
-import { FaHtml5, FaCss3Alt, FaJs, FaGitAlt } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaCog } from "react-icons/fa";
 
 export const onelabSkills = [
   { icon: <SiTypescript />, label: "TypeScript" },
   { icon: <SiNextdotjs />, label: "Next.js" },
   { icon: <SiTailwindcss />, label: "Tailwind CSS" },
   { icon: <SiJest />, label: "Cypress" },
+  { icon: <SiReactquery />, label: "React Query" },
+  { icon: <FaCog />, label: "Zustand" },
 ];
 
 export const adbertSkills = [

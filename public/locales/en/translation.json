@@ -23,5 +23,15 @@
       "Implemented logging at critical points to resolve traffic monitoring issues on the official website.",
       "Integrated LINE Message and LINE Notify for push notification features."
     ]
-  }
+  },
+  "intro_greeting": "Hi, I'm Liu Chang",
+  "intro_role": "Front-end Engineer",
+  "intro_description": "I love trying new things and the feeling of building something from scratch. I’ve found real joy in exploring blockchain, algorithmic trading, and web development. Outside the screen, climbing and traveling keep me grounded and inspired.",
+  "section_experience": "Experience",
+  "section_skills": "Skills & Technologies",
+  "section_others": "Others",
+  "section_hikingJournal": "Hiking Journal",
+  "hiking_description": "Some hiking record in Taiwan",
+  "trading_title": "Programmatic trading of TAIEX Futures",
+  "trading_description": "Built an automated trading system for TAIEX Futures."
 }

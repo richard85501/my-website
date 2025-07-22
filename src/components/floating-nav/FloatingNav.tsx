@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaUser, FaBriefcase, FaEllipsisH, FaBars } from "react-icons/fa";
+import { LanguageToggleButton } from "./LanguageToggleButton.tsx"; // 👈 加入語言切換按鈕
 
 const navItems = [
   { icon: <FaUser />, href: "#about", label: "About" },
@@ -20,17 +21,19 @@ const FloatingNav = () => {
             href={item.href}
             className="group relative flex items-center justify-end"
           >
-            {/* 滑出文字 */}
             <span className="absolute right-14 opacity-0 translate-x-4 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 text-blue-600 font-extrabold text-sm whitespace-nowrap">
               {item.label}
             </span>
-
-            {/* 圓形 Icon */}
             <div className="w-8 h-8 flex items-center justify-center rounded-full bg-white text-black shadow-md hover:bg-blue-500 hover:text-white transition duration-300 text-md">
               {item.icon}
             </div>
           </a>
         ))}
+
+        {/* ➕ 加語言切換按鈕（Desktop） */}
+        <div className="ml-auto">
+          <LanguageToggleButton />
+        </div>
       </div>
 
       {/* Mobile - 右上角漢堡選單 */}
@@ -56,6 +59,11 @@ const FloatingNav = () => {
                 {item.label}
               </a>
             ))}
+
+            {/* ➕ 加語言切換按鈕（Mobile） */}
+            <div className="px-4 py-2">
+              <LanguageToggleButton />
+            </div>
           </div>
         )}
       </div>
