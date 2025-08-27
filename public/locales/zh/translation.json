@@ -1,10 +1,11 @@
 {
   "onelab": {
     "details": [
-      "維護超過五年的 legacy code，並逐步導入單元測試與模組化架構，降低維護成本，縮短後續開發時間約 20%。",
+      "維護超過五年的 Legacy code，維護並逐步將.net View 升級成React ,通過漸進式重構策略 , 減少技術債務, 提升頁面載入速度 , 降低新人維護門檻。",
+      "使用 React 與 Typscript 進行新專案的開發 , 搭配 useMemo 和 useCallback 優化渲染效能, 並以 Zustand 進行局部狀態管理，React Query 進行 API 資料管理。",
+      "實作 Lazy Loading , 將核心bundle大幅減少 , 降低首屏刷新時間 , 提升使用者體驗。",
       "從零建置 Polygon 的區塊鏈應用，串接智能合約，導入 GitLab CI/CD 自動化流程，與團隊成功將產品於三個月內正式上線。",
-      "在開發與重構專案中使用 GitHub Copilot 與 Claude 等 AI 工具生成測試程式碼，初版開發時間縮短約 30%，並加速重構迭代。",
-      "參與 Cypress 自動化測試小組，撰寫並優化測試案例，有效提升專案的測試覆蓋率與維護效率。"
+      "在開發與重構專案中使用 GitHub Copilot 與 Claude 等 AI 工具生成測試程式碼，初版開發時間縮短約 30%，並加速重構迭代。"
     ]
   },
   "adbert": {

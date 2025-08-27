@@ -1,10 +1,11 @@
 {
   "onelab": {
     "details": [
-      "Maintained a legacy codebase for over five years, successfully fixed numerous long-standing bugs, and gradually introduced unit testing and modular architecture, reducing maintenance costs and shortening subsequent development time by approximately 20%.",
-      "Built a blockchain application on Polygon from scratch, integrated smart contracts, and implemented GitLab CI/CD automation. Successfully launched the product with the team within three months.",
-      "Utilized AI tools such as GitHub Copilot and Claude to generate test code during project development and refactoring, reducing initial development time by around 30% and accelerating the refactoring cycle.",
-      "Participated in a Cypress automation testing team, wrote and optimized test cases, effectively improving test coverage and maintenance efficiency across projects."
+      "Maintained legacy code for over five years, progressively upgrading .NET Views to React through incremental refactoring strategies, reducing technical debt, improving page load speeds, and lowering maintenance barriers for new team members.",
+      "Developed new projects using React and TypeScript, optimizing rendering performance with useMemo and useCallback, implementing local state management with Zustand, and API data management with React Query.",
+      "Implemented Lazy Loading to significantly reduce core bundle size, decrease initial screen refresh time, and enhance user experience.",
+      "Built blockchain applications on Polygon from scratch, integrated smart contracts, introduced GitLab CI/CD automation pipelines, and successfully launched the product with the team within three months.",
+      "Utilized AI tools like GitHub Copilot and Claude during development and refactoring projects to generate test code, reducing initial development time by approximately 30% and accelerating refactoring iterations."
     ]
   },
   "adbert": {
