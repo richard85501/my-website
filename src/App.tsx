@@ -17,16 +17,18 @@ function Portfolio() {
     t("onelab.details.1"),
     t("onelab.details.2"),
     t("onelab.details.3"),
+    t("onelab.details.4"),
   ];
   const adbertDetails = [
     t("adbert.details.0"),
     t("adbert.details.1"),
     t("adbert.details.2"),
-    t("adbert.details.3"),
-    t("adbert.details.4"),
-    t("adbert.details.5"),
   ];
-  const infopowerDetails = [t("infopower.details.0"), t("infopower.details.1")];
+  const infopowerDetails = [
+    t("infopower.details.0"),
+    t("infopower.details.1"),
+    t("infopower.details.2"),
+  ];
   return (
     <div className="min-h-screen bg-gradient-to-br text-gray-800">
       <header id="about" className="max-w-4xl mx-auto py-20 px-6">

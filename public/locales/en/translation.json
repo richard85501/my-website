@@ -1,28 +1,25 @@
 {
   "onelab": {
     "details": [
-      "Maintained legacy code for over five years, progressively upgrading .NET Views to React through incremental refactoring strategies, reducing technical debt, improving page load speeds, and lowering maintenance barriers for new team members.",
-      "Developed new projects using React and TypeScript, optimizing rendering performance with useMemo and useCallback, implementing local state management with Zustand, and API data management with React Query.",
-      "Implemented Lazy Loading to significantly reduce core bundle size, decrease initial screen refresh time, and enhance user experience.",
-      "Built blockchain applications on Polygon from scratch, integrated smart contracts, introduced GitLab CI/CD automation pipelines, and successfully launched the product with the team within three months.",
-      "Utilized AI tools like GitHub Copilot and Claude during development and refactoring projects to generate test code, reducing initial development time by approximately 30% and accelerating refactoring iterations."
+      "Maintained legacy code for over five years and gradually upgraded and refactored Result pages from .NET View to React, reducing technical debt, improving page load speed, and lowering maintenance barriers.",
+      "Developed different micro-frontends using React and TypeScript, optimized rendering performance with useMemo and useCallback, managed local state with Zustand, and handled API data management with React Query.",
+      "Implemented Lazy Loading for complex, large-scale, and functionally independent codebases, reducing the core bundle by 15%, decreasing first-screen refresh time, and enhancing user experience.",
+      "Built a Polygon blockchain application from scratch, integrating smart contracts with the MetaMask browser plugin, successfully launching the product with the team within three months.",
+      "Used AI tools like GitHub Copilot and Claude to generate test code during development and refactoring projects, reducing initial development time by approximately 30% and accelerating refactoring iterations."
     ]
   },
   "adbert": {
     "details": [
-      "Assisted in building an HC System for the company, supporting talent development and helping the HR department calculate and distribute bonuses over four consecutive quarters.",
-      "Developed reusable and customizable chart components, shared across multiple projects, significantly improving productivity and development efficiency.",
-      "Designed efficient and scalable state management flows using Redux, solving issues related to data persistence across page transitions and permission handling.",
-      "Utilized custom hooks to encapsulate business logic, reducing code duplication and increasing reusability.",
-      "Built a component library using Storybook, creating highly reusable and easily maintainable React components to enhance cross-project and cross-team collaboration.",
-      "Implemented automated testing for components, saving development and testing time while increasing component stability."
+      "Collaborated with the team to build an HR cloud system, primarily responsible for developing custom chart components using Chart.js and Canvas to visualize employee performance data, and assisted HR in calculating and distributing bonuses through this system.",
+      "Worked with the design department to collect highly reusable React components that are easily modified across projects, managing them through a StoryBook component library to improve cross-departmental efficiency.",
+      "Implemented automated testing for components using Jest, saving development and testing time while improving component stability."
     ]
   },
   "infopower": {
     "details": [
-      "Maintained the email delivery system using Mailgun and AWS services.",
-      "Implemented logging at critical points to resolve traffic monitoring issues on the official website.",
-      "Integrated LINE Message and LINE Notify for push notification features."
+      "Implemented automated testing for components using Jest, saving development and testing time while improving component stability.",
+      "Integrated third-party platforms Mailgun and AWS for email services.",
+      "Integrated Line-message and Line-notify for push notifications and developed message templates."
     ]
   },
   "intro_greeting": "Hi, I'm Liu Chang",

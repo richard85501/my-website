@@ -1,28 +1,25 @@
 {
   "onelab": {
     "details": [
-      "維護超過五年的 Legacy code，維護並逐步將.net View 升級成React ,通過漸進式重構策略 , 減少技術債務, 提升頁面載入速度 , 降低新人維護門檻。",
-      "使用 React 與 Typscript 進行新專案的開發 , 搭配 useMemo 和 useCallback 優化渲染效能, 並以 Zustand 進行局部狀態管理，React Query 進行 API 資料管理。",
-      "實作 Lazy Loading , 將核心bundle大幅減少 , 降低首屏刷新時間 , 提升使用者體驗。",
-      "從零建置 Polygon 的區塊鏈應用，串接智能合約，導入 GitLab CI/CD 自動化流程，與團隊成功將產品於三個月內正式上線。",
-      "在開發與重構專案中使用 GitHub Copilot 與 Claude 等 AI 工具生成測試程式碼，初版開發時間縮短約 30%，並加速重構迭代。"
+      "維護超過五年的 Legacy code，並逐步將 Result 頁面從.net View 升級重構成 React，減少技術債務，提升頁面載入速度，降低維護門檻。",
+      "使用 React 與 Typscript 進行不同微前端的開發，搭配 useMemo 和 useCallback 優化渲染效能，並以 Zustand 進行局部狀態管理，React Query 進行 API 資料管理。",
+      "針對複雜龐大且功能獨立的程式碼，實作 Lazy Loading，將核心 bundle 減少15%，降低首屏刷新時間，提升使用者體驗。",
+      "從零建置 Polygon 的區塊鏈應用，串接智能合約與瀏覽器插件 MetaMask，與團隊成功將產品於三個月內正式上線。",
+      "在開發與重構專案中使用 GitHub Copilot 與 Claude 等 AI 生成測試程式碼，初版開發時間縮短約 30%，並加速重構迭代。"
     ]
   },
   "adbert": {
     "details": [
-      "幫助公司建立人資雲系統，進行人才的培育，並幫助人資部門計算並發放了三個季度的獎金。",
-      "開發可重複使用的客製圖形元件，並跨專案使用，有效提高了生產力和開發效率。",
-      "熟練使用 Redux 設計出高效和可擴展的狀態流程，解決換頁資料保存與權限判讀問題。",
-      "使用 custom hooks 將邏輯封裝，增加程式複用性。",
-      "建立 Storybook 元件庫，建立重複性高並且在跨專案時易修改的 React 元件，增進跨部門效益。",
-      "對元件進行自動化測試，節省開發與測試時間，增進元件穩定性。"
+      "與團隊合作建立人資雲系統，主要負責以 Chart.js 和 Canvas 開發客制圖形元件，數據化員工業務績效，並以該系統協助人資計算並發放獎金。",
+      "與設計部門合作，蒐集重複性高並且在跨專案時易修改的 React 元件，透過 StoryBook 元件庫進行管理，增進跨部門效益。",
+      "使用 Jest 對元件進行自動化測試，節省開發與測試時間，增進元件穩定性。"
     ]
   },
   "infopower": {
     "details": [
-      "串接 Mailgun 與 AWS 第三方平台進行寄信服務。",
-      "增加官網點擊行為的紀錄功能，便於後續數據分析師進行精準行銷分析。",
-      "串接 LINE Message 與 LINE Notify 進行推播功能開發。"
+      "使用 Jest 對元件進行自動化測試，節省開發與測試時間，增進元件穩定性。",
+      "串接 Mailgun 與 Aws 第三方平台進行寄信服務。",
+      "串接 Line-message 和 Line-notify 進行推播，並開發 Message 模板。"
     ]
   },
   "intro_greeting": "劉暢",
