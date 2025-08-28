@@ -17,7 +17,7 @@
   },
   "infopower": {
     "details": [
-      "使用 Jest 對元件進行自動化測試，節省開發與測試時間，增進元件穩定性。",
+      "官網偵測點擊行為的功能埋點，以便後續數據分析師進行精準的行銷分析。",
       "串接 Mailgun 與 Aws 第三方平台進行寄信服務。",
       "串接 Line-message 和 Line-notify 進行推播，並開發 Message 模板。"
     ]

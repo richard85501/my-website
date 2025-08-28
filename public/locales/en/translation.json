@@ -17,7 +17,7 @@
   },
   "infopower": {
     "details": [
-      "Implemented automated testing for components using Jest, saving development and testing time while improving component stability.",
+      "Implement click tracking on the official website to enable data analysts to conduct precise marketing analysis.",
       "Integrated third-party platforms Mailgun and AWS for email services.",
       "Integrated Line-message and Line-notify for push notifications and developed message templates."
     ]
